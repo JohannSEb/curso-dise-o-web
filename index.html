@@ -3,77 +3,56 @@
  <head>
    <meta charset="utf-8"/>
    <meta name="description" content="Ejemplo de pagina web">
-   <title>Primera pagina</title>
+   <title>Pagina Corporativa</title>
+   <link rel="stylesheet" href="style.css">
  </head>
  <body>
   <header>
-    <img style="float: left" src="img/avatar.png">
-    <h1>Johan Sebastian Cuellar Bolivar</h1>
+    <img style="float: left" src="img/controlador.png">
+    <h1>Empresa HTML</h1>
   </header>
   <nav>
-    <a href="#PERFIL">Perfil</a>
-    <a href="#">Actividades</a>
-    <a href="#VINCULOS">Vinculos de Interes</a>
-    <a href="#Autor">Contacto</a>
+    <a href="#INICIO">Inicio</a>
+    <a href="#PRODUCTOS">Productos</a>
+    <a href="#AUTOR">Contacto</a>
   </nav>
   <section>
-    <a name="PERFIL"><h2>Perfil</h2></a>
-    <article>
+    <a name="INICIO"><h2>Inicio</h2>
+      <img id="cat" style="float: left" src="img/2.gif"></a></a>
+    <center>
+    <article id="inicioa" >
       <p>
-        Bienvenido a mi pagina personal.Aqui encontrarás 
-        informacion sobre mis actividades, gustos,
-        comunidades y vinculos de interes.
+       Una Empresa de desarrollo de videojuegos
       </p>
     </article>
+    </center>
   </section>
-  <section>
-    <article>
-      <p>En mi tiempo libre hago actividades</p>
-      <p>veo cine</p>
-      <table border="1" align="center">
-        <caption>Listado cinco mejores peliculas</caption>
-        <col><col><col>
-        <tbody>
-          <tr>
-            <td>Puesto</td><td>Peliculas</td><td>Año de estreno</td>
-          </tr>
-          <tr>
-            <td>1</td><td>La vida es bella</td><td>1997</td>
-          </tr>
-          <tr>
-            <td>2</td><td>lo que el viento se llevo</td><td>1939</td>
-          </tr>
-          <tr>
-            <td>3</td><td>El padrino</td><td>1972</td>
-          </tr>
-          <tr>
-            <td>4</td><td>Titanic</td><td>1997</td>
-          </tr>
-          <tr>
-            <td>5</td><td>La lista de Schindel</td><td>1993</td>
-          </tr>
-        </tbody>
-      </table>
-    </article>
-  </section>
-  <section>
-    <a name="Vinculos"><h2>Vinculos de interes</h2></a>
+  <section id="productos">
+    <a name="PRODUCTOS"><h2>Productos</h2>
+    <img id="char" style="float: left" src="img/giphy.gif"></a>
     <article>
       <p>
-        Las siguiente paginas son las que uso constantemente
-        para buscar informacion y mantenerme al dia
+        Recomendacion Personal
       </p>
-      <p><a href="https://www.google.com/">Buscador de Google</a></p>
-      <p><a href="https://www.udistrital.edu.co/">Universidad Distrital</a></p>
+      <p>Una Recomendacion para entrar en el mundo del videojuego</p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7F76o9jLpGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+    <article>
+      <p>
+        Que son los videojuegos
+      </p>
+      <p>resumen de la hisotria de los videojuegos hecho pora DayoScript</p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LlTldKFhwEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </article>
   </section>
   <aside></aside>
   <footer>
     <address>
+      <a name="AUTOR"><h2 id="autor">Autor</h2></a>
       Autor:Johan Sebastian Cuellar Bolivar<br>
       Correo: jscuellarb@correo.udistrital.edu.co
     </address>
-    <p>Última modificacion: 1 de Noviembre de 2022</p>
+    <p>Última modificacion: 2 de Noviembre de 2022</p>
   </footer>
 </p>
 </body>
